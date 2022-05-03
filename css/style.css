@@ -5552,10 +5552,18 @@ body:not(.is-touch) .instagram-badge__inner:hover {
 .logo {
     width: 8.48rem;
     height: 5.68rem;
-    margin-top: 1rem
+    margin-top: -0.5rem;
 }
-
+#media-show{
+    display:none;
+}
 @media (max-width:1439px) {
+    #media-show{
+        display:block;
+    }
+    #media-shows{
+        display: none;
+    }
     .logo {
         margin-bottom: 1rem
     }
@@ -5565,7 +5573,7 @@ body:not(.is-touch) .instagram-badge__inner:hover {
     .logo {
         width: 10.07rem;
         height: 6.745rem;
-        margin-top: 2rem
+        margin-top: -0.5rem;
     }
 }
 
